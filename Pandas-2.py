@@ -132,12 +132,9 @@ data = {'A': [45, 37, 0, 42, 50],
         'E': [76, 98, -0.03, 78, 90]
         }
 df = pd.DataFrame(data)
-df
+#Testing the method dataframe.corr() out on the provided df
+
 df.corr()
-
-
-# In[ ]:
-
 
 
 
